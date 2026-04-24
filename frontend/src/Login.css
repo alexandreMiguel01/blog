@@ -1,0 +1,91 @@
+/* 🔥 FUNDO */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #000, #000);
+}
+
+/* 🔥 CARD */
+.auth-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  animation: fadeIn 0.4s ease;
+}
+
+/* 🔥 TÍTULO */
+.auth-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 🔥 INPUTS */
+.auth-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.auth-card input:focus {
+  border-color: #667eea;
+  outline: none;
+  box-shadow: 0 0 5px rgba(102,126,234,0.5);
+}
+
+/* 🔥 BOTÃO */
+.btn-primary {
+  width: 100%;
+  background: #667eea;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: #5a67d8;
+  transform: translateY(-2px);
+}
+
+/* 🔥 TEXTO DE TROCA */
+.switch {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* 🔥 BOTÃO "Registrar/Login" */
+.switch span {
+  color: #667eea;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.switch span:hover {
+  text-decoration: underline;
+}
+
+/* 🔥 ANIMAÇÃO */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
