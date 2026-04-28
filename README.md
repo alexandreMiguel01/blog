@@ -4,7 +4,7 @@ Projeto fullstack de um blog com autenticação de usuários e CRUD de posts, de
 
 ##  Demo
 
-*  **Frontend:** blog-nu-peach-75.vercel.app
+*  **Frontend:** [🔗 Acessar projeto](https://blog-nu-peach-75.vercel.app)
 *  **Backend (API):** https://blog-5mz2.onrender.com
 *  **Endpoint de teste:** https://blog-5mz2.onrender.com/posts
 
