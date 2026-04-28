@@ -1,4 +1,5 @@
 import { useState } from "react";
+const API_URL = "https://blog-5mz2.onrender.com";
 
 function Register({ goToLogin }) {
   const [name, setName] = useState("");
