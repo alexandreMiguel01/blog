@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Login.css";
+const API_URL = "https://blog-5mz2.onrender.com";
 
 function Login({ setToken, setUserId, goToRegister }) { // 👈 AQUI
   const [email, setEmail] = useState("");
