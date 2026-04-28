@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://blog-5mz2.onrender.com";
 
 // 🔐 GET POSTS
 export async function getPosts(token) {
@@ -25,7 +25,7 @@ export async function createPost(token, data) {
 
 // 🗑️ DELETE POST
 export async function deletePost(token, id) {
-  return fetch(`http://localhost:3000/posts/${id}`, {
+  return fetch(`https://blog-5mz2.onrender.com/posts/${id}`, {
     method: "DELETE",
     headers: {
       Authorization: `Bearer ${token}`,
@@ -34,7 +34,7 @@ export async function deletePost(token, id) {
 }
 
 export async function updatePost(token, id, data) {
-  return fetch(`http://localhost:3000/posts/${id}`, {
+  return fetch(`https://blog-5mz2.onrender.com/posts/${id}`, {
     method: "PUT",
     headers: {
       "Content-Type": "application/json",

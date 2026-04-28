@@ -8,7 +8,7 @@ function Login({ setToken, setUserId, goToRegister }) { // 👈 AQUI
   async function handleLogin(e) {
     e.preventDefault();
 
-    const res = await fetch("http://localhost:3000/login", {
+    const res = await fetch(`${API_URL}/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

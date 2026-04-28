@@ -69,7 +69,6 @@ function App() {
     }
   }
 
-  // 🔥 AQUI ESTÁ A CORREÇÃO
   if (!token) {
     return isRegister ? (
       <Register goToLogin={() => setIsRegister(false)} />
