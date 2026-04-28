@@ -130,7 +130,7 @@ Tabelas utilizadas:
 
 ## Autor
 
-Desenvolvido por **Mlexandre Miguel**
+Desenvolvido por **Alexandre Miguel**
 
 ## Observação
 
